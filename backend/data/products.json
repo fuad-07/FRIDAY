@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "stock": 150,
+    "category": "Accessories",
+    "description": "Ergonomic wireless mouse with USB-C charging."
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 89.99,
+    "stock": 75,
+    "category": "Accessories",
+    "description": "RGB mechanical keyboard with Cherry MX switches."
+  },
+  {
+    "name": "USB-C Hub",
+    "price": 49.99,
+    "stock": 200,
+    "category": "Accessories",
+    "description": "7-in-1 USB-C hub with HDMI, USB-A, SD card reader."
+  },
+  {
+    "name": "27-inch Monitor",
+    "price": 299.99,
+    "stock": 30,
+    "category": "Displays",
+    "description": "4K IPS monitor with HDR support."
+  },
+  {
+    "name": "Monitor Arm",
+    "price": 79.99,
+    "stock": 60,
+    "category": "Accessories",
+    "description": "Adjustable single monitor arm for desks up to 2 inches thick."
+  },
+  {
+    "name": "Laptop Stand",
+    "price": 39.99,
+    "stock": 120,
+    "category": "Accessories",
+    "description": "Adjustable aluminum laptop stand with ventilation."
+  },
+  {
+    "name": "Webcam",
+    "price": 69.99,
+    "stock": 90,
+    "category": "Accessories",
+    "description": "1080p webcam with built-in microphone and privacy shutter."
+  },
+  {
+    "name": "Microphone",
+    "price": 59.99,
+    "stock": 85,
+    "category": "Accessories",
+    "description": "USB condenser microphone for streaming and calls."
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "price": 199.99,
+    "stock": 40,
+    "category": "Audio",
+    "description": "Over-ear Bluetooth headphones with active noise cancellation."
+  },
+  {
+    "name": "Laptop",
+    "price": 999.99,
+    "stock": 20,
+    "category": "Computers",
+    "description": "Ultralight laptop with 16GB RAM and 512GB SSD."
+  },
+  {
+    "name": "Laptop v2",
+    "price": 99.99,
+    "stock": 20,
+    "category": "Computers",
+    "description": "Ultralight laptop with 8GB RAM and 256GB SSD."
+  }
+]
