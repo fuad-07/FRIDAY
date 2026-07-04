@@ -22,13 +22,26 @@ def search_product(product_name: str) -> Optional[dict]:
     best_match = None
     best_score = 0
 
+    query_words = set(query.split())
+
     for product in products:
         name = product["name"].lower()
-        if query in name or name in query:
-            score = len(set(query) & set(name))
-            if score > best_score:
-                best_score = score
-                best_match = product
+
+        if query not in name and name not in query:
+            continue
+
+        name_words = set(name.split())
+        token_score = len(query_words & name_words)
+
+        score = token_score * 10
+        if name == query:
+            score += 100
+        elif query in name:
+            score += 5
+
+        if score > best_score:
+            best_score = score
+            best_match = product
 
     if best_match:
         return {
